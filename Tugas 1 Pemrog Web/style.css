@@ -1,0 +1,99 @@
+/* Gaya Umum untuk Seluruh Halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: left; /* Mengatur teks agar default rata kiri */
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center; /* Judul berada di tengah halaman */
+}
+
+h2 {
+    font-size: 22px;
+    color: #444;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/* Gaya untuk Daftar Isi dan Link Bagian */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Gaya untuk Setiap Bagian */
+.section {
+    margin-top: 40px;
+}
+
+.bordered {
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Gaya untuk Gambar */
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Gambar berada di tengah */
+    border: 3px solid #555;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya untuk To Do List */
+ol, ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Gaya Tombol Kembali */
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
